@@ -87,6 +87,7 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  width: auto;
 }
 
 .navbar-toggler {
@@ -598,76 +599,6 @@ button:focus {
 
 
 
-/*contact */
-.contact-page {
-  position: absolute ;
-  top: 50% ;
-  left: 50% ;
-  transform: translate(-50%, -50%) ;
-  padding: 2rem ;
-  text-align: center ;
-  background: #06da74 ;
-  border-radius: 10px ;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
-  max-width: 400px ;
-}
 
-
-.contact-page h1 {
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.success-message {
-  margin-bottom: 1rem;
-  color: green;
-  font-size: 1.2rem;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-  text-align: left;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #0073e6;
-}
-
-.form-group .error {
-  color: red;
-  font-size: 0.875rem;
-  margin-top: 0.5rem;
-  display: block;
-}
-
-button {
-  padding: 0.75rem 1.5rem;
-  background-color: #0073e6;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-}
-
-button:hover {
-  background-color: #005bb5;
-}
 
 

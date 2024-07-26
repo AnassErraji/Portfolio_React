@@ -5,10 +5,10 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Resume from "./components/Resume/ResumeNew"
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
-import Testimonials from './components/Testimonials';
-import AddTestimonial from './components/AddTestimonial';
+import Testimonials from './components/Testimonials/Testimonials';
+import AddTestimonial from './components/addTestimonial/AddTestimonial';
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
@@ -37,7 +37,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/Testimonials" element={<Testimonials/>} />
-          <Route path="/addTestimonial" element={<AddTestimonial  />} />
+          <Route path="/addTestimonial" element={<AddTestimonial/>} />
         </Routes>
         <Footer />
       </div>

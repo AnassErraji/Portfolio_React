@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page {
+    flex: 1;
+    padding: 50px 0;
+    margin-top: 90px;
+    height: auto;
+    width: auto;
+}
+
+.footer_2 {
+    position: fixed;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 300px;
+
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+
+.form-control {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.form-control.is-invalid {
+    border-color: #e3342f;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23e3342f' d='M8 14.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13z'/%3e%3cpath fill='%23e3342f' d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+.form-control.is-invalid:focus {
+    border-color: #e3342f;
+    box-shadow: 0 0 0 .2rem rgba(227, 52, 47, .25);
+}
+
+.success-message {
+    text-align: center;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer-copywright1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-body1 {
+    text-align: center;
+}
+
+.footer-icons1 {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons1 {
+    font-size: 1.5em;
+}
+
+.social-icons1 a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-icons1 a:hover {
+    color: #007bff;
+}
+form {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #62f905;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .textarea-large {
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
